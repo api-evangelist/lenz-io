@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-lenz-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://lenz.io/
+Lenz provides an audit‑grade AI fact‑checking API that verifies factual claims in AI‑generated or human‑written text against independent sources. It offers a multi‑model verification pipeline, reviewer panels, and detailed source citations to ensure trustworthy outputs. The service includes a free trial, tiered pricing, and integrations with major AI models like Claude and ChatGPT, targeting enterprises needing reliable AI content validation.
+
+**Areas:** AI · Fact-Checking · Enterprise · API · Audit
+
+## lenz-io on APIs.io
+
+Everything profiled for lenz-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lenz-io/](https://apis.io/providers/lenz-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [lenz-io Account API](https://apis.io/apis/lenz-io/lenz-io-account-api/) — Your credit balance, the price list, and rate-limit usage.
+- [lenz-io Ask API](https://apis.io/apis/lenz-io/lenz-io-ask-api/) — Ask follow-up questions grounded on an existing verification.
+- [lenz-io Assess API](https://apis.io/apis/lenz-io/lenz-io-assess-api/) — Fast panel verdict on a claim, with the pages the reviewers looked at. Sync, typically 10-25s; allow 45s for the response.
+- [lenz-io Citecheck API](https://apis.io/apis/lenz-io/lenz-io-citecheck-api/) — Check whether each cited source says what a draft attributes to it: from a draft with its links, or from statement-source pairs. Async; 1 credit per checked…
+- [lenz-io Discovery API](https://apis.io/apis/lenz-io/lenz-io-discovery-api/) — Machine-readable index of the API root.
+- [lenz-io Extract API](https://apis.io/apis/lenz-io/lenz-io-extract-api/) — Pull verifiable claims out of any text. Costs no credits; fair-use cap 1,000/account/day.
+- [lenz-io Lenz — AI Fact Checking API](https://apis.io/apis/lenz-io/lenz-io-lenz-ai-fact-checking-api-api/) — The Lenz — AI Fact Checking API API from lenz-io — 0 operation(s) for lenz — ai fact checking api.
+- [lenz-io Library API](https://apis.io/apis/lenz-io/lenz-io-library-api/) — Browse the public catalog of verifications. No API key required.
+- [lenz-io Review API](https://apis.io/apis/lenz-io/lenz-io-review-api/) — The whole recipe in one call: find the claims in a draft, quick-check each, deep-check the ones that look wrong or uncertain, and get the issues back with…
+- [lenz-io Verifications API](https://apis.io/apis/lenz-io/lenz-io-verifications-api/) — List, fetch, delete, and toggle visibility on stored verifications.
+- [lenz-io Verify API](https://apis.io/apis/lenz-io/lenz-io-verify-api/) — The full investigation, with verified citations. Async, ~90s. Submit one claim or a batch, poll status, and resolve a needs_input interrupt with select.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Lenz Io Webhooks](https://apis.io/asyncapis/lenz-io/lenz-io-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Lenz Io Agentic Access](https://apis.io/agentic-access/lenz-io/lenz-io-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lenz Io Context](https://apis.io/jsonld/lenz-io/lenz-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [lenz-io API Rules](https://apis.io/rules/lenz-io/lenz-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lenz Io Authentication](https://apis.io/security/lenz-io/lenz-io-authentication/)
+- [Lenz Io Domain Security](https://apis.io/security/lenz-io/lenz-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Lenz Io Plans Pricing](https://apis.io/plans/lenz-io/lenz-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lenz.io/)
+- [Documentation](https://lenz.io/developers)
+- [Getting started](https://lenz.io/docs/quickstart)
+- [API reference](https://lenz.io/api/v1/docs/)
+- [Pricing](https://lenz.io/plans)
+- [Terms of service](https://lenz.io/terms)
+- [Privacy policy](https://lenz.io/privacy)
+- [GitHub](https://github.com/lenzhq)
+
+## API Evangelist rating
+
+**Kin Score 57.7** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 61.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 60.0 |
+
+**Agent readiness 46.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lenz-io/](https://apis.io/providers/lenz-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for lenz-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lenz-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
